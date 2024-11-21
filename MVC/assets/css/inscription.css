@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/a148\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    margin: 0 auto;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.342);
+    padding: 10px 50px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.titre {
+    padding: 20px 0;
+}
+
+.SeConnecter {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+    border: 2px solid rgba(12, 151, 116, 0.795);
+    border-radius: 10px;
+}
+
+.login li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.login input {
+    background: rgba(255, 255, 255, 0.432);
+    border: 0;
+    padding: 10px;
+    width: 225px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.login input:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+
+.login button {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgba(12, 151, 116, 0.795);
+    border-radius: 7px;
+    transition: 0.5s;
+    color: rgba(17, 17, 17, 0.568);
+}
+
+.login button:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+
+.erreur {
+    /* padding: 10px; */
+    animation: err 1.5s linear infinite;
+    color: red;
+}
+
+@keyframes err {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

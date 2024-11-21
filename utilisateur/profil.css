@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.profil {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.profil .photo img {
+    border: 3px solid red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profil .information {
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.profil .information li {
+    padding: 10px 5px;
+}

@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/a148\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.342);
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 10px 50px;
+    margin-top: 80px;
+}
+
+.titre {
+    padding: 20px 0;
+}
+
+.connect {
+    border: 2px solid rgba(12, 151, 116, 0.795);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.login li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.login input {
+    background: rgba(255, 255, 255, 0.432);
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    width: 225px;
+    transition: 0.5s;
+}
+
+.login input:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+
+.login button {
+    background: rgba(12, 151, 116, 0.795);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 0;
+    transition: 0.5s;
+    color: rgba(17, 17, 17, 0.568);
+}
+
+.login button:hover {
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+
+.login a {
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.568);
+    padding: 3px;
+}
+
+.erreur {
+    transition: 0.5s;
+    animation: err 1.5s linear infinite;
+    color: red;
+}
+
+@keyframes err {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
